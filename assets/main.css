@@ -1,127 +1,177 @@
 /* RESET */
 
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: 'Sniglet', cursive;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Sniglet', cursive;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 /* HEADER */
 
 header {
-    display: grid;    
-    height: 180px;
-    background: black;
-    grid-template-columns: repeat(7, 1fr);
-    grid-gap: 20px;
-    align-items: center; 
-
-}
-
-.top-box{
-    height: 100px;
-    background: gray;
+  display: grid;
+  height: 180px;
+  grid-template-columns: repeat(7, 1fr);
+  grid-gap: 20px;
+  align-items: center;
+  justify-items: center;
+  background: #595959;
+  font-size: 20px;
+  text-align: center;
 }
 
 
-/*----------  Feature  ----------*/
-
-
+/* ----------  Feature  ---------- */
 
 .feature-articles {
-    position: relative;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    grid-gap: 20px;
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
 }
 
 .fomo {
-    margin-left: 50%;
-    transform: translateX(-50%);
-    margin-top: 50px;
-    position: absolute;
-    width: 15em;
-    letter-spacing: -1px;
-    z-index: 11;
-    text-align: center;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  margin-top: 50px;
+  position: absolute;
+  width: 15em;
+  letter-spacing: -1px;
+  z-index: 11;
+  text-align: center;
 }
 
 .dont-miss {
-    background-color:
-    #fff;
-    padding: .3em .4em;
-    line-height: 1.5em;
+  background-color: #fff;
+  padding: 0.3em 0.4em;
+  line-height: 1.5em;
 }
 
 .suggested-article {
-    height: 780px;
+  height: 780px;
+  display: grid;
+  align-items: center;
+  align-content: center;
+  padding: 30px;
 }
 
 .suggested-article1 {
-    background: gray;
+  background: #a8a3a3;
 }
 
 .suggested-article2 {
-    background: #c8c7c7;
+  background: #c8c7c7;
 }
 
 
-/*----------  Latest Articles  ----------*/
+/* ----------  Latest Articles  ---------- */
 
 .latest-articles {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 .latest {
-    background-color: yellow;
-    height: 600px;
+  display: grid;
+  background-color: white;
+  height: 600px;
+  padding: 30px;
+  align-items: center;
+  align-content: center;
+}
+
+.latest p {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.latest p:last-child {
+  font-size: 23px;
 }
 
 .latest-ad {
-    background-color: blue;
-    height: 600px;
+  background-color: #d5d5d5;
+  height: 600px;
+  font-size: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .latest-promo {
-    background-color: aqua;
-    height: 600px;
-    grid-column: 2/-1;
+  background-color: #757373;
+  height: 600px;
+  grid-column: 2/-1;
+  display: grid;
+  align-items: center;
+  align-content: center;
+  padding: 30%;
+  text-align: center;
+}
+
+.latest-promo h1 {
+  margin-bottom: 30px;
 }
 
 
-/*----------  Book Ad  ----------*/
+/* ----------  Book Ad  ---------- */
 
 .book-ad {
-    display: block;
-    width: 100%;
-    height: 1200px;
-    background-color: palegoldenrod;
+  display: block;
+  width: 100%;
+  height: 1200px;
+  background-color: palegoldenrod;
 }
 
 
 
-/*----------  Community Links  ----------*/
+/* ----------  Community Links  ---------- */
 
 .community-links {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
 }
 
 .person-of-the-week {
-    background-color: violet;
-    grid-column: 1/-1;
-    height: 350px;
+  background-color: violet;
+  grid-column: 1/-1;
+  height: 350px;
 }
 
 .comments {
-    height: 400px;
-    background-color: turquoise;
+  height: 400px;
+  background-color: turquoise;
+}
+
+/* ----------  Book Ad  ---------- */
+
+.book-ad2 {
+  height: 360px;
+  background: greenyellow;
+}
+
+/* ----------  Guides  ---------- */
+
+.guides-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+}
+
+.guides {
+  height: 600px;
+  background: indigo;
+}
+
+/* ----------  Footer  ---------- */
+
+footer {
+  height: 600px;
+  background: #d33a2c;
 }
