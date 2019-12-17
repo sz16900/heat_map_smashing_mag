@@ -12,7 +12,48 @@ a {
 
 /* HEADER */
 
-.header {
+header {
+    display: grid;    
     height: 180px;
     background: black;
+    grid-template-columns: repeat(7, 1fr);
+    grid-gap: 20px;
+    align-items: center; 
+
+}
+
+.top-box{
+    height: 100px;
+    background: gray;
+}
+
+
+.feature-articles {
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 20px;
+}
+
+/* .dont-miss {
+    position: absolute;
+    width: 380px;
+    height: 97px;
+    margin-left: 50%;
+    margin-right: 50%;
+    top: 30px;
+    font-size: 60px;
+} */
+
+.suggested-article {
+    height: 780px;
+}
+
+.suggested-article1 {
+    background: gray;
+}
+
+.suggested-article2 {
+    background: #c8c7c7;
 }
