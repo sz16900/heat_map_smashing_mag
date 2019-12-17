@@ -4,6 +4,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Sniglet', cursive;
 }
 
 a {
@@ -28,6 +29,10 @@ header {
 }
 
 
+/*----------  Feature  ----------*/
+
+
+
 .feature-articles {
     position: relative;
     display: grid;
@@ -36,15 +41,23 @@ header {
     grid-gap: 20px;
 }
 
-/* .dont-miss {
-    position: absolute;
-    width: 380px;
-    height: 97px;
+.fomo {
     margin-left: 50%;
-    margin-right: 50%;
-    top: 30px;
-    font-size: 60px;
-} */
+    transform: translateX(-50%);
+    margin-top: 50px;
+    position: absolute;
+    width: 15em;
+    letter-spacing: -1px;
+    z-index: 11;
+    text-align: center;
+}
+
+.dont-miss {
+    background-color:
+    #fff;
+    padding: .3em .4em;
+    line-height: 1.5em;
+}
 
 .suggested-article {
     height: 780px;
@@ -56,4 +69,59 @@ header {
 
 .suggested-article2 {
     background: #c8c7c7;
+}
+
+
+/*----------  Latest Articles  ----------*/
+
+.latest-articles {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.latest {
+    background-color: yellow;
+    height: 600px;
+}
+
+.latest-ad {
+    background-color: blue;
+    height: 600px;
+}
+
+.latest-promo {
+    background-color: aqua;
+    height: 600px;
+    grid-column: 2/-1;
+}
+
+
+/*----------  Book Ad  ----------*/
+
+.book-ad {
+    display: block;
+    width: 100%;
+    height: 1200px;
+    background-color: palegoldenrod;
+}
+
+
+
+/*----------  Community Links  ----------*/
+
+.community-links {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.person-of-the-week {
+    background-color: violet;
+    grid-column: 1/-1;
+    height: 350px;
+}
+
+.comments {
+    height: 400px;
+    background-color: turquoise;
 }
