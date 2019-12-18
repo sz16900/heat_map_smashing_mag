@@ -158,7 +158,7 @@ header {
   font-size: 1.25rem;
 }
 
-.latest-promo h1 {
+.latest-promo h2 {
   margin-bottom: 1.875rem;
   font-size: 3.5rem;
 }
@@ -274,18 +274,23 @@ header {
   font-size: 1.5625rem;
 }
 
-.comments-text h1 {
+.comments-text h2 {
   font-weight: bold;
   color: #000;
+  font-size: 1.25rem;
 }
 
 /* ----------  Book Ad  ---------- */
 
 .book-ad2 {
   height: 31.25rem;
-  background: #a4a4a4;
+  background: #848484;
   display: grid;
   grid-template-columns: 3fr 1fr;
+}
+
+.colored-book {
+  background: #848484;
 }
 
 .bookad-text {
@@ -298,7 +303,7 @@ header {
   padding-bottom: 0.9375rem;
 }
 
-.bookad-text h1 {
+.bookad-text h2 {
   font-size: 3.75rem;
   color: #f5f5f5;
 }
@@ -306,7 +311,7 @@ header {
 .book-pic {
   width: 24.375rem;
   height: 100%;
-  background: #a4a4a4;
+  background: #848484;
 }
 
 /* ----------  Guides  ---------- */
