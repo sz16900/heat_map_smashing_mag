@@ -29,27 +29,6 @@ header {
   font-size: 1.3rem;
 }
 
-/* ----------  Feature  ---------- */
-
-@media (min-width: 1440px) {
-  .feature-articles {
-    position: relative;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(33%, 1fr));
-  }
-
-  .feature-articles .hidden-article {
-    display: none;
-  }
-}
-
-@media(max-width: 1439px) {
-  .feature-articles {
-    position: relative;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(50%, 1fr));
-  }
-}
 
 .fomo {
   margin-left: 50%;
@@ -321,11 +300,6 @@ header {
 
 /* ----------  Guides  ---------- */
 
-.guides-wrapper {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-}
-
 .guides {
   height: 600px;
   display: grid;
@@ -387,4 +361,40 @@ footer {
   display: inline;
   font-size: 1rem;
   padding: 0 5px;
+}
+
+/* ----------  Media Queries  ---------- */
+
+
+@media (min-width: 1440px) {
+  .feature-articles {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25%, 1fr));
+  }
+
+  .guides-wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25%, 1fr));
+    max-width: 1920px;
+    margin: 0 auto;
+  }
+
+  .promo-bottom {
+    grid-column: 1/-1;
+  }
+
+}
+
+@media(max-width: 1439px) {
+  .feature-articles {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(50%, 1fr));
+  }
+
+  .guides-wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(33%, 1fr));
+  }
 }
