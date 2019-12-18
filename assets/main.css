@@ -16,13 +16,13 @@ a {
 
 header {
   display: grid;
-  height: 180px;
+  height: 11.25rem;
   grid-template-columns: 1.2fr repeat(6, 1fr);
   align-items: center;
   justify-content: space-around;
   background: #595959;
   text-align: center;
-  color: whitesmoke;
+  color: #F5F5F5;
 }
 
 /* ----------  Featured Articles  ---------- */
@@ -44,27 +44,27 @@ header {
 .fomo {
   margin-left: 50%;
   transform: translateX(-50%);
-  margin-top: 25px;
+  margin-top: 1.5625rem;
   position: absolute;
   width: 25em;
-  letter-spacing: -1px;
+  letter-spacing: -0.0625rem;
   z-index: 11;
   text-align: center;
 }
 
 .dont-miss {
-  background-color: #fff;
+  background-color: #FFFFFF;
   padding: 0.3em 0.4em;
   line-height: 1.5em;
   font-size: 1.8rem;
 }
 
 .suggested-article {
-  height: 780px;
+  height: 48.75rem;
   display: grid;
   align-items: center;
   align-content: center;
-  padding: 30px;
+  padding: 1.875rem;
   grid-template-rows: 5fr 1fr 1fr 4fr;
 }
 
@@ -98,18 +98,18 @@ header {
 .latest-articles {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  max-width: 1920px;
+  max-width: 120rem;
   margin: 0 auto;
 }
 
 .latest {
   display: grid;
-  background-color: white;
-  height: 600px;
-  padding: 30px;
+  background-color: #FFFFFF;
+  height: 37.5rem;
+  padding: 1.875rem;
   align-items: center;
   align-content: center;
-  border: 1px solid whitesmoke;
+  border: 1px solid #F5F5F5;
   grid-template-rows: 0.5fr 0.5fr 0.5fr 1fr 3fr;
 }
 
@@ -122,8 +122,8 @@ header {
 }
 
 .latest p {
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
 }
 
 .latest-promo p {
@@ -141,7 +141,7 @@ header {
 
 .latest-ad {
   background-color: #d5d5d5;
-  height: 600px;
+  height: 37.5rem;
   font-size: 7.5rem;
   display: flex;
   justify-content: center;
@@ -150,7 +150,7 @@ header {
 
 .latest-promo {
   background-color: #757373;
-  height: 600px;
+  height: 37.5rem;
   grid-column: 2/-1;
   display: grid;
   align-content: center;
@@ -159,7 +159,7 @@ header {
 }
 
 .latest-promo h1 {
-  margin-bottom: 30px;
+  margin-bottom: 1.875rem;
   font-size: 3.5rem;
 }
 
@@ -168,7 +168,7 @@ header {
 .book-ad {
   display: grid;
   width: 100%;
-  height: 700px;
+  height: 43.75rem;
   background-color: #dedede;
   text-align: center;
   grid-template-rows: 1fr 1fr 1fr 1fr 3fr;
@@ -185,10 +185,10 @@ header {
 
 .btn-white {
   padding: 0.75em 1em;
-  background: #fff;
+  background: #FFFFFF;
   width: 24.375rem;
   height: 4.1875rem;
-  border-radius: 20px;
+  border-radius: 1.25rem;
   justify-self: center;
   margin-top: 1.25rem;
   font-size: 1.25rem;
@@ -199,24 +199,24 @@ header {
 .community-links {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  max-width: 1920px;
+  max-width: 120rem;
   margin: 0 auto;
 }
 
 .person-of-the-week {
   background-color: #666;
   grid-column: 1/-1;
-  height: 350px;
+  height: 21.875rem;
   display: grid;
   grid-template-columns: 1.5fr 4fr;
-  color: white;
+  color: #FFFFFF;
 }
 
 .person-of-the-week .image {
   background-color: #f0eded;
   margin: 10%;
-  width: 300px;
-  height: 300px;
+  width: 18.75rem;
+  height: 18.75rem;
   position: relative;
   overflow: hidden;
 }
@@ -224,7 +224,7 @@ header {
 .person-of-the-week .text {
   align-self: center;
   font-size: 1.25rem;
-  padding: 30px;
+  padding: 1.875rem;
 }
 
 .person-of-the-week h2 {
@@ -232,42 +232,42 @@ header {
 }
 
 .comments {
-  height: 400px;
+  height: 25rem;
   background-color: #666;
   display: grid;
   grid-template-columns: auto 1fr;
-  grid-gap: 20px;
-  color: white;
+  grid-gap: 1.25rem;
+  color: #FFFFFF;
   padding: 5%;
 }
 
 .little-face {
-  height: 100px;
-  width: 100px;
+  height: 6.25rem;
+  width: 6.25rem;
   background: #f0eded;
   position: relative;
   overflow: hidden;
 }
 
 .line {
-  border: 1px dashed black;
+  border: 0.0625rem dashed #000000;
   transform: rotate(45deg);
   transform-origin: left;
   position: absolute;
-  width: 1000px;
+  width: 62.5rem;
 }
 
 .line2 {
-  border: 1px dashed black;
+  border: 0.0625rem dashed #000000;
   transform: rotate(-45deg);
   transform-origin: right;
   right: 0;
   position: absolute;
-  width: 1000px;
+  width: 62.5rem;
 }
 
 .comments-text > * {
-  padding-bottom: 20px;
+  padding-bottom: 1.25rem;
 }
 
 .comments-paragraph {
@@ -276,35 +276,35 @@ header {
 
 .comments-text h1 {
   font-weight: bold;
-  color: black;
+  color: #000000;
 }
 
 /* ----------  Book Ad  ---------- */
 
 .book-ad2 {
-  height: 500px;
+  height: 31.25rem;
   background: #a4a4a4;
   display: grid;
   grid-template-columns: 3fr 1fr;
 }
 
 .bookad-text {
-  margin-left: 40px;
-  margin-top: 20px;
+  margin-left: 2.5rem;
+  margin-top: 1.25rem;
   align-self: center;
 }
 
 .bookad-text > * {
-  padding-bottom: 15px;
+  padding-bottom: 0.9375rem;
 }
 
 .bookad-text h1 {
   font-size: 3.75rem;
-  color: whitesmoke;
+  color: #F5F5F5;
 }
 
 .book-pic {
-  width: 390px;
+  width: 24.375rem;
   height: 100%;
   background: #a4a4a4;
 }
@@ -314,7 +314,7 @@ header {
 .guides-wrapper {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(25%, 1fr));
-  max-width: 1920px;
+  max-width: 120rem;
   margin: 0 auto;
 }
 
@@ -323,66 +323,66 @@ header {
 }
 
 .guides {
-  height: 600px;
+  height: 37.5rem;
   display: grid;
   grid-template-columns: 1fr;
-  background: white;
+  background: #FFFFFF;
   align-content: center;
   justify-items: center;
-  border: 1px solid whitesmoke;
+  border: 1px solid #F5F5F5;
 }
 
 .guides > h1 {
   font-size: 2.2rem;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
 }
 
 footer h3 {
   font-size: 1.5rem;
-  margin-bottom: 50px;
+  margin-bottom: 3.125rem;
 }
 
 .guides > h3 {
   justify-self: start;
-  padding-left: 20px;
+  padding-left: 1.25rem;
 }
 
 .guides > * {
-  padding-bottom: 14px;
+  padding-bottom: 0.875rem;
 }
 
 .item {
   font-size: 1.4rem;
-  padding: 5px 0 5px 0;
+  padding: 0.3125rem 0 0.3125rem 0;
 }
 
 /* ----------  Footer  ---------- */
 
 footer {
-  height: 600px;
+  height: 37.5rem;
   background: #595959;
   text-align: center;
   display: grid;
   align-content: center;
-  color: whitesmoke;
+  color: #F5F5F5;
 }
 
 .footer-text {
-  padding: 30px 0;
+  padding: 1.875rem 0;
 }
 
 .items-footer li {
   display: inline-block;
   list-style: circle;
-  padding: 10px 20px 0 10px;
+  padding: 0.625rem 20px 0 0.625rem;
   font-size: 2rem;
 }
 
 .footer-links li {
   display: inline;
   font-size: 1rem;
-  padding: 0 5px;
+  padding: 0 0.3125rem;
 }
 
 /* ----------  Media Queries  ---------- */
@@ -401,7 +401,7 @@ footer {
   .guides-wrapper {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(25%, 1fr));
-    max-width: 1920px;
+    max-width: 120rem;
     margin: 0 auto;
   }
 
@@ -410,7 +410,7 @@ footer {
   }
 }
 
-@media (max-width: 1439px) {
+@media (max-width: 89.9375rem) {
   .feature-articles {
     position: relative;
     display: grid;
