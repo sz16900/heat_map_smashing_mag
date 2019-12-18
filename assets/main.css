@@ -31,17 +31,30 @@ header {
 
 /* ----------  Feature  ---------- */
 
-.feature-articles {
-  position: relative;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
+@media (min-width: 1440px) {
+  .feature-articles {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(33%, 1fr));
+  }
+
+  .feature-articles .hidden-article {
+    display: none;
+  }
+}
+
+@media(max-width: 1439px) {
+  .feature-articles {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(50%, 1fr));
+  }
 }
 
 .fomo {
   margin-left: 50%;
   transform: translateX(-50%);
-  margin-top: 50px;
+  margin-top: 25px;
   position: absolute;
   width: 25em;
   letter-spacing: -1px;
@@ -78,7 +91,7 @@ header {
   font-size: 1.2rem;
 }
 
-.suggested-article h1 {
+.suggested-article h2 {
   font-size: 3.125rem;
 }
 
@@ -95,6 +108,8 @@ header {
 .latest-articles {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  max-width: 1920px;
+  margin: 0 auto;
 }
 
 .latest {
@@ -148,7 +163,6 @@ header {
   height: 600px;
   grid-column: 2/-1;
   display: grid;
-  align-items: center;
   align-content: center;
   text-align: center;
   font-size: 1.25rem;
@@ -195,8 +209,8 @@ header {
 .community-links {
   display: grid;
   grid-template-columns: 1fr 1fr;
-
-  /* grid-gap: 20px; */
+  max-width: 1920px;
+  margin: 0 auto;
 }
 
 .person-of-the-week {
